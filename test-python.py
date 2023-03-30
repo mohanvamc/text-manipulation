@@ -1,5 +1,2 @@
 with open('hosts-sample.txt', 'r') as f:
-    for line in f:
-        if 'google' in line:
-            fields = line.split()
-            print(fields[1])
+    print('\n'.join([line.split()[1] for line in f if 'google' in line]))
