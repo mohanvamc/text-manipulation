@@ -49,13 +49,13 @@ myapp.google.com
 test.google.com
 
 ```
-# Python Test 
+# Python Test script test-python.py
 
 ```bash
-
+#!/usr/bin/env python3
 with open('hosts-sample.txt', 'r') as f:
     print('\n'.join([line.split()[1] for line in f if 'google' in line]))
-    
+
 ```
 
 ```bash
