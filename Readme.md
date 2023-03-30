@@ -53,6 +53,13 @@ test.google.com
 
 ```bash
 
+with open('hosts-sample.txt', 'r') as f:
+    print('\n'.join([line.split()[1] for line in f if 'google' in line]))
+    
+```
+
+```bash
+
 python --version
 Python 3.11.2
 ❯ python test-python.py
