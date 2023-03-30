@@ -1,3 +1,14 @@
+# sample hosts file
+
+```bash
+#sample hosts file
+127.0.0.1   localhost
+192.168.0.1 router
+192.168.0.2 google.com
+10.0.0.1    myapp.google.com
+10.28.100.1 test.google.com
+```
+
 # awk example
 awk command to print all hostsnames with word "google"
 
